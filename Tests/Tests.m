@@ -7,7 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
-#import "ODBSimpleAPI.h"
+#import "ODBSimpleAPI+ODBStations.h"
 
 @interface Tests : XCTestCase
 
@@ -16,16 +16,14 @@
 @implementation Tests
 
 - (void)testExample {
-    XCTestExpectation *expectationExistingUsersUsernameExists = [self expectationWithDescription:@"success!"];
-    ODBSimpleAPI *http = [ODBSimpleAPI new];
-    [http testCallonSuccess:^(NSArray *stations) {
-        //
-        NSLog([stations ]);
-        [expectationExistingUsersUsernameExists fulfill];
-    } onError:^(NSError *error) {        //
-        NSLog(error);
+    XCTestExpectation *expectation = [self expectationWithDescription:@"success!"];
+    ODBSimpleAPI *http =[ODBSimpleAPI new];
+    [http getAllStationsWithFilter:nil success:^{
+        [expectation fulfill];
+    } onError:^(NSError *error) {
+        NSLog([error description]);
     }];
-    
+
     [self waitForExpectationsWithTimeout:30.0 handler:nil];
 }
 

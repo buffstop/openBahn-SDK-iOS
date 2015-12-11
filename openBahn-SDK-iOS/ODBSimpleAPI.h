@@ -8,8 +8,17 @@
 
 #import <Foundation/Foundation.h>
 
+#import "BUFAPIParser.h"
+
 @interface ODBSimpleAPI : NSObject
 
-- (void)testCallonSuccess:(void (^)(NSArray *stations))successBlock
-                  onError:(void (^)(NSError* error))errorBlock;
+- (void)callModule:(NSString*)module filter:(NSDictionary *)filter
+               success:(void (^)(NSArray *result))successBlock
+               onError:(void (^)(NSError* error))errorBlock;
+
+#pragma mark - Life Cycle
+
+- (instancetype)init;
+- (instancetype)initWithBaseUrl:(NSString *)baseUrl;
+
 @end

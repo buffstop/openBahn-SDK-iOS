@@ -16,7 +16,7 @@
       },
       {
         "name": "nahverkehr",
-        "base-type": "string",
+        "base-type": "number",
         "required": 0
       },
       {
@@ -51,7 +51,7 @@
       },
       {
         "name": "katVst",
-        "base-type": "string",
+        "base-type": "number",
         "required": 0
       },
       {
@@ -66,7 +66,7 @@
       },
       {
         "name": "bfNr",
-        "base-type": "string",
+        "base-type": "number",
         "required": 0
       }
     ]

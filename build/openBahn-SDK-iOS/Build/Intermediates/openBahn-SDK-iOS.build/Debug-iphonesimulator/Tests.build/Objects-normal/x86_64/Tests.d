@@ -27,4 +27,10 @@ dependencies: /Users/andreasbuff/Desktop/openBahn-SDK-iOS/Tests/Tests.m \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestDefines.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap \
-  /Users/andreasbuff/Desktop/openBahn-SDK-iOS/openBahn-SDK-iOS/ODBSimpleAPI.h
+  /Users/andreasbuff/Desktop/openBahn-SDK-iOS/openBahn-SDK-iOS/ODBSimpleAPI+ODBStations.h \
+  /Users/andreasbuff/Desktop/openBahn-SDK-iOS/openBahn-SDK-iOS/ODBSimpleAPI.h \
+  /Users/andreasbuff/Desktop/openBahn-SDK-iOS/openBahn-SDK-iOS/metaJSON/Utilities/APIParser/BUFAPIParser.h \
+  /Users/andreasbuff/Desktop/openBahn-SDK-iOS/openBahn-SDK-iOS/metaJSON/BUFStationJSONObject.h \
+  /Users/andreasbuff/Desktop/openBahn-SDK-iOS/openBahn-SDK-iOS/metaJSON/AbstractInterfaceFiles/_BUFStationJSONObject.h \
+  /Users/andreasbuff/Desktop/openBahn-SDK-iOS/openBahn-SDK-iOS/metaJSON/BUFBaseJSONObject.h \
+  /Users/andreasbuff/Desktop/openBahn-SDK-iOS/openBahn-SDK-iOS/metaJSON/AbstractInterfaceFiles/_BUFBaseJSONObject.h

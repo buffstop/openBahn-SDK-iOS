@@ -14,53 +14,67 @@
 
 @implementation ODBSimpleAPI
 
-- (void)testCallonSuccess:(void (^)(NSArray *stations))successBlock
-                  onError:(void (^)(NSError* error))errorBlock;
+#pragma mark - Public
+
+- (void)callModule:(NSString*)module
+            filter:(NSDictionary *)filter
+           success:(void (^)(NSArray *results))successBlock
+           onError:(void (^)(NSError* error))errorBlock;
 {
-    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://54.93.120.139/api/station"]];
+    NSParameterAssert(module);
+    
+    NSString *urlBuilder = [self.baseUrl stringByAppendingString:module];
+    
+    NSMutableString *filterBuilder = [NSMutableString new];
+    if (filter && filter.count > 0) {
+        [filterBuilder appendString:@"?"];
+        for (NSString *filterKey in filter) {
+            if (filterBuilder.length > 1) {
+                [filterBuilder appendString:@"&"];
+            }
+            [filterBuilder appendString:filterKey];
+            [filterBuilder appendString:filter[filterKey]];
+        }
+        urlBuilder = [urlBuilder stringByAppendingString:filterBuilder];
+    }
+    [self callUrl:urlBuilder success:successBlock onError:errorBlock];
+}
+
+#pragma mark - Server Calls
+
+- (void)callUrl:(NSString *)url
+        success:(void(^)(NSArray *results))successBlock
+        onError:(void(^)(NSError *error))errorBlock
+{
+    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:url]];
     [NSURLConnection sendAsynchronousRequest:request queue:[NSOperationQueue currentQueue] completionHandler:^(NSURLResponse *response, NSData *data, NSError *error) {
         if (error) {
             if (errorBlock) { errorBlock(error); }
+            return;
         }
         if (data) {
             NSError *error;
-            NSArray *json = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:&error];
+            NSArray *json = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllowFragments error:&error];
             if (successBlock) {
                 successBlock(json);
             }
+            return;
         }
-        NSAssert(false, @"nix");
     }];
-    //
-    //    self.baseUrl = "http://54.93.120.139/api";
-    //    self.responseData = [NSMutableData new];
-    //
-    //    NSURL *url = [NSURL URLWithString:self.baseUrl];
-    //    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url cachePolicy:NSURLRequestUseProtocolCachePolicy timeoutInterval:60.0];
-    //
-    ////    NSData *requestData = [@"name=testname&suggestion=testing123" dataUsingEncoding:NSUTF8StringEncoding];
-    ////
-    ////    [request setHTTPMethod:@"POST"];
-    ////    [request setValue:@"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8" forHTTPHeaderField:@"Accept"];
-    ////    [request setValue:@"application/x-www-form-urlencoded" forHTTPHeaderField:@"Content-Type"];
-    ////    [request setValue:[NSString stringWithFormat:@"%d", [requestData length]] forHTTPHeaderField:@"Content-Length"];
-    ////    [request setHTTPBody: requestData];
-    //
-    //    [[NSURLConnection alloc] initWithRequest:request delegate:self];
 }
 
 #pragma mark - Life Cycle
 
-- (instancetype)init
+- (instancetype)init;
 {
     self = [super init];
     if (self) {
-        self.baseUrl = @"http://54.93.120.139/api";
+        self.baseUrl = @"http://54.93.120.139/api/";
     }
     return self;
 }
 
-- (instancetype)initWithBaseUrl:(NSString *)baseUrl
+- (instancetype)initWithBaseUrl:(NSString *)baseUrl;
 {
     self = [super init];
     if (self) {
