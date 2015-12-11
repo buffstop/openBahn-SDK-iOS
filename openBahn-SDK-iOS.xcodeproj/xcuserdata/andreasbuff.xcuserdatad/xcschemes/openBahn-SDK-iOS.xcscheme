@@ -14,9 +14,23 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "490F4B9E1C1B6D4F00B14CBB"
+               BlueprintIdentifier = "490F4BF61C1B76D500B14CBB"
                BuildableName = "libopenBahn-SDK-iOS.a"
                BlueprintName = "openBahn-SDK-iOS"
+               ReferencedContainer = "container:openBahn-SDK-iOS.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "490F4C061C1B76E100B14CBB"
+               BuildableName = "Tests.xctest"
+               BlueprintName = "Tests"
                ReferencedContainer = "container:openBahn-SDK-iOS.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -29,6 +43,15 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "490F4BF61C1B76D500B14CBB"
+            BuildableName = "libopenBahn-SDK-iOS.a"
+            BlueprintName = "openBahn-SDK-iOS"
+            ReferencedContainer = "container:openBahn-SDK-iOS.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -45,7 +68,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "490F4B9E1C1B6D4F00B14CBB"
+            BlueprintIdentifier = "490F4BF61C1B76D500B14CBB"
             BuildableName = "libopenBahn-SDK-iOS.a"
             BlueprintName = "openBahn-SDK-iOS"
             ReferencedContainer = "container:openBahn-SDK-iOS.xcodeproj">
@@ -63,7 +86,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "490F4B9E1C1B6D4F00B14CBB"
+            BlueprintIdentifier = "490F4BF61C1B76D500B14CBB"
             BuildableName = "libopenBahn-SDK-iOS.a"
             BlueprintName = "openBahn-SDK-iOS"
             ReferencedContainer = "container:openBahn-SDK-iOS.xcodeproj">

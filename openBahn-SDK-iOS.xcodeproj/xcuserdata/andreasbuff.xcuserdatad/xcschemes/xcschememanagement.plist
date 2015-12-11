@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Tests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>openBahn-SDK-iOS.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,7 +17,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>490F4B9E1C1B6D4F00B14CBB</key>
+		<key>490F4BF61C1B76D500B14CBB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>490F4C061C1B76E100B14CBB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
