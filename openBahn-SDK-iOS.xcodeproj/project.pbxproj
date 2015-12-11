@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49DF776D1C1B2BAB0078E92B /* openBahn_SDK_iOS.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 49DF776C1C1B2BAB0078E92B /* openBahn_SDK_iOS.h */; };
+		49DF776F1C1B2BAB0078E92B /* openBahn_SDK_iOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DF776E1C1B2BAB0078E92B /* openBahn_SDK_iOS.m */; };
+		49DF77751C1B2BAB0078E92B /* libopenBahn-SDK-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49DF77691C1B2BAB0078E92B /* libopenBahn-SDK-iOS.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49DF77761C1B2BAB0078E92B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49DF77611C1B2BAA0078E92B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49DF77681C1B2BAA0078E92B;
+			remoteInfo = "openBahn-SDK-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		49DF77671C1B2BAA0078E92B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				49DF776D1C1B2BAB0078E92B /* openBahn_SDK_iOS.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		49DF77691C1B2BAB0078E92B /* libopenBahn-SDK-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libopenBahn-SDK-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49DF776C1C1B2BAB0078E92B /* openBahn_SDK_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = openBahn_SDK_iOS.h; sourceTree = "<group>"; };
+		49DF776E1C1B2BAB0078E92B /* openBahn_SDK_iOS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = openBahn_SDK_iOS.m; sourceTree = "<group>"; };
+		49DF77741C1B2BAB0078E92B /* openBahn-SDK-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "openBahn-SDK-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49DF777A1C1B2BAB0078E92B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49DF77661C1B2BAA0078E92B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49DF77711C1B2BAB0078E92B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49DF77751C1B2BAB0078E92B /* libopenBahn-SDK-iOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49DF77601C1B2BAA0078E92B = {
+			isa = PBXGroup;
+			children = (
+				49DF776B1C1B2BAB0078E92B /* openBahn-SDK-iOS */,
+				49DF77781C1B2BAB0078E92B /* openBahn-SDK-iOSTests */,
+				49DF776A1C1B2BAB0078E92B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49DF776A1C1B2BAB0078E92B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49DF77691C1B2BAB0078E92B /* libopenBahn-SDK-iOS.a */,
+				49DF77741C1B2BAB0078E92B /* openBahn-SDK-iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49DF776B1C1B2BAB0078E92B /* openBahn-SDK-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				49DF776C1C1B2BAB0078E92B /* openBahn_SDK_iOS.h */,
+				49DF776E1C1B2BAB0078E92B /* openBahn_SDK_iOS.m */,
+			);
+			path = "openBahn-SDK-iOS";
+			sourceTree = "<group>";
+		};
+		49DF77781C1B2BAB0078E92B /* openBahn-SDK-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				49DF77791C1B2BAB0078E92B /* Supporting Files */,
+			);
+			path = "openBahn-SDK-iOSTests";
+			sourceTree = "<group>";
+		};
+		49DF77791C1B2BAB0078E92B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49DF777A1C1B2BAB0078E92B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49DF77681C1B2BAA0078E92B /* openBahn-SDK-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49DF777D1C1B2BAB0078E92B /* Build configuration list for PBXNativeTarget "openBahn-SDK-iOS" */;
+			buildPhases = (
+				49DF77651C1B2BAA0078E92B /* Sources */,
+				49DF77661C1B2BAA0078E92B /* Frameworks */,
+				49DF77671C1B2BAA0078E92B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "openBahn-SDK-iOS";
+			productName = "openBahn-SDK-iOS";
+			productReference = 49DF77691C1B2BAB0078E92B /* libopenBahn-SDK-iOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		49DF77731C1B2BAB0078E92B /* openBahn-SDK-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49DF77801C1B2BAB0078E92B /* Build configuration list for PBXNativeTarget "openBahn-SDK-iOSTests" */;
+			buildPhases = (
+				49DF77701C1B2BAB0078E92B /* Sources */,
+				49DF77711C1B2BAB0078E92B /* Frameworks */,
+				49DF77721C1B2BAB0078E92B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49DF77771C1B2BAB0078E92B /* PBXTargetDependency */,
+			);
+			name = "openBahn-SDK-iOSTests";
+			productName = "openBahn-SDK-iOSTests";
+			productReference = 49DF77741C1B2BAB0078E92B /* openBahn-SDK-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49DF77611C1B2BAA0078E92B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Andreas Buff";
+				TargetAttributes = {
+					49DF77681C1B2BAA0078E92B = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					49DF77731C1B2BAB0078E92B = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 49DF77641C1B2BAA0078E92B /* Build configuration list for PBXProject "openBahn-SDK-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 49DF77601C1B2BAA0078E92B;
+			productRefGroup = 49DF776A1C1B2BAB0078E92B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49DF77681C1B2BAA0078E92B /* openBahn-SDK-iOS */,
+				49DF77731C1B2BAB0078E92B /* openBahn-SDK-iOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49DF77721C1B2BAB0078E92B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49DF77651C1B2BAA0078E92B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49DF776F1C1B2BAB0078E92B /* openBahn_SDK_iOS.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49DF77701C1B2BAB0078E92B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49DF77771C1B2BAB0078E92B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49DF77681C1B2BAA0078E92B /* openBahn-SDK-iOS */;
+			targetProxy = 49DF77761C1B2BAB0078E92B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		49DF777B1C1B2BAB0078E92B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		49DF777C1C1B2BAB0078E92B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49DF777E1C1B2BAB0078E92B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		49DF777F1C1B2BAB0078E92B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		49DF77811C1B2BAB0078E92B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "openBahn-SDK-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		49DF77821C1B2BAB0078E92B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "openBahn-SDK-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49DF77641C1B2BAA0078E92B /* Build configuration list for PBXProject "openBahn-SDK-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49DF777B1C1B2BAB0078E92B /* Debug */,
+				49DF777C1C1B2BAB0078E92B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49DF777D1C1B2BAB0078E92B /* Build configuration list for PBXNativeTarget "openBahn-SDK-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49DF777E1C1B2BAB0078E92B /* Debug */,
+				49DF777F1C1B2BAB0078E92B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		49DF77801C1B2BAB0078E92B /* Build configuration list for PBXNativeTarget "openBahn-SDK-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49DF77811C1B2BAB0078E92B /* Debug */,
+				49DF77821C1B2BAB0078E92B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49DF77611C1B2BAA0078E92B /* Project object */;
+}
