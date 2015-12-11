@@ -7,17 +7,17 @@
 		<key>openBahn-SDK-iOS.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>49DF77681C1B2BAA0078E92B</key>
+		<key>496BB2401C1B5A1200709F2A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>49DF77731C1B2BAB0078E92B</key>
+		<key>496BB24B1C1B5A1200709F2A</key>
 		<dict>
 			<key>primary</key>
 			<true/>

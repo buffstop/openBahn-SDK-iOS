@@ -3,5 +3,5 @@ platform :ios, "8.0"
 
 
 target "openBahn-SDK-iOS" do
-    pod 'AFNetworking'
+    pod 'AFNetworking', '~> 2.5.4'
 end

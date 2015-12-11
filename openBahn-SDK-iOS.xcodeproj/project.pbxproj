@@ -7,268 +7,141 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		49DC268D1C1B41990082510C /* MMServerAuthError.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DC268C1C1B41990082510C /* MMServerAuthError.m */; };
-		49DC26901C1B41F70082510C /* MMServerError.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DC268F1C1B41F70082510C /* MMServerError.m */; };
-		49DF776D1C1B2BAB0078E92B /* openBahn_SDK_iOS.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 49DF776C1C1B2BAB0078E92B /* openBahn_SDK_iOS.h */; };
-		49DF776F1C1B2BAB0078E92B /* openBahn_SDK_iOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DF776E1C1B2BAB0078E92B /* openBahn_SDK_iOS.m */; };
-		49DF77751C1B2BAB0078E92B /* libopenBahn-SDK-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49DF77691C1B2BAB0078E92B /* libopenBahn-SDK-iOS.a */; };
-		49DF77AE1C1B37140078E92B /* _BUFBaseJSONObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DF77A01C1B37140078E92B /* _BUFBaseJSONObject.m */; };
-		49DF77AF1C1B37140078E92B /* _BUFStationJSONObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DF77A21C1B37140078E92B /* _BUFStationJSONObject.m */; };
-		49DF77B01C1B37140078E92B /* BUFBaseJSONObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DF77A41C1B37140078E92B /* BUFBaseJSONObject.m */; };
-		49DF77B11C1B37140078E92B /* BUFStationJSONObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DF77A61C1B37140078E92B /* BUFStationJSONObject.m */; };
-		49DF77B21C1B37140078E92B /* BUFAPIParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DF77AA1C1B37140078E92B /* BUFAPIParser.m */; };
-		49DF77B31C1B37140078E92B /* NSString+RegExValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DF77AD1C1B37140078E92B /* NSString+RegExValidation.m */; };
-		49DF795E1C1B3D010078E92B /* MMAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DF795D1C1B3D010078E92B /* MMAPIClient.m */; };
-		49DF79671C1B3D4C0078E92B /* MMHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DF79601C1B3D4C0078E92B /* MMHTTPRequestOperation.m */; };
-		49DF79681C1B3D4C0078E92B /* MMJSONRequestSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DF79621C1B3D4C0078E92B /* MMJSONRequestSerializer.m */; };
-		49DF79691C1B3D4C0078E92B /* MMServerErrorResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DF79641C1B3D4C0078E92B /* MMServerErrorResponseSerializer.m */; };
-		49DF796A1C1B3D4C0078E92B /* MMURLAuthenticatedResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DF79661C1B3D4C0078E92B /* MMURLAuthenticatedResponseSerializer.m */; };
-		B3BF64C1282CB3FC6B913DD1 /* libPods-openBahn-SDK-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A863DB263AB0AAC35B821AB /* libPods-openBahn-SDK-iOS.a */; };
+		496BB2451C1B5A1200709F2A /* openBahn_SDK_iOS.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 496BB2441C1B5A1200709F2A /* openBahn_SDK_iOS.h */; };
+		496BB2471C1B5A1200709F2A /* openBahn_SDK_iOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 496BB2461C1B5A1200709F2A /* openBahn_SDK_iOS.m */; };
+		496BB24D1C1B5A1200709F2A /* libopenBahn-SDK-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 496BB2411C1B5A1200709F2A /* libopenBahn-SDK-iOS.a */; };
+		FB726F754F31C196599D2282 /* libPods-openBahn-SDK-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F56E219F354362DCAACC602 /* libPods-openBahn-SDK-iOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		49DF77761C1B2BAB0078E92B /* PBXContainerItemProxy */ = {
+		496BB24E1C1B5A1200709F2A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 49DF77611C1B2BAA0078E92B /* Project object */;
+			containerPortal = 496BB2391C1B5A1200709F2A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 49DF77681C1B2BAA0078E92B;
+			remoteGlobalIDString = 496BB2401C1B5A1200709F2A;
 			remoteInfo = "openBahn-SDK-iOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		49DF77671C1B2BAA0078E92B /* CopyFiles */ = {
+		496BB23F1C1B5A1200709F2A /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				49DF776D1C1B2BAB0078E92B /* openBahn_SDK_iOS.h in CopyFiles */,
+				496BB2451C1B5A1200709F2A /* openBahn_SDK_iOS.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		3A863DB263AB0AAC35B821AB /* libPods-openBahn-SDK-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-openBahn-SDK-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		49DC26851C1B415E0082510C /* MMAPIClientSessionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMAPIClientSessionDelegate.h; sourceTree = "<group>"; };
-		49DC26861C1B415E0082510C /* MMHTTPRequestOperationDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMHTTPRequestOperationDelegate.h; sourceTree = "<group>"; };
-		49DC268B1C1B41990082510C /* MMServerAuthError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMServerAuthError.h; sourceTree = "<group>"; };
-		49DC268C1C1B41990082510C /* MMServerAuthError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMServerAuthError.m; sourceTree = "<group>"; };
-		49DC268E1C1B41F70082510C /* MMServerError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMServerError.h; sourceTree = "<group>"; };
-		49DC268F1C1B41F70082510C /* MMServerError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMServerError.m; sourceTree = "<group>"; };
-		49DC26951C1B42600082510C /* MMErrorHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMErrorHandler.h; sourceTree = "<group>"; };
-		49DF77691C1B2BAB0078E92B /* libopenBahn-SDK-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libopenBahn-SDK-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		49DF776C1C1B2BAB0078E92B /* openBahn_SDK_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = openBahn_SDK_iOS.h; sourceTree = "<group>"; };
-		49DF776E1C1B2BAB0078E92B /* openBahn_SDK_iOS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = openBahn_SDK_iOS.m; sourceTree = "<group>"; };
-		49DF77741C1B2BAB0078E92B /* openBahn-SDK-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "openBahn-SDK-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		49DF777A1C1B2BAB0078E92B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		49DF779F1C1B37140078E92B /* _BUFBaseJSONObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _BUFBaseJSONObject.h; sourceTree = "<group>"; };
-		49DF77A01C1B37140078E92B /* _BUFBaseJSONObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _BUFBaseJSONObject.m; sourceTree = "<group>"; };
-		49DF77A11C1B37140078E92B /* _BUFStationJSONObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _BUFStationJSONObject.h; sourceTree = "<group>"; };
-		49DF77A21C1B37140078E92B /* _BUFStationJSONObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _BUFStationJSONObject.m; sourceTree = "<group>"; };
-		49DF77A31C1B37140078E92B /* BUFBaseJSONObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BUFBaseJSONObject.h; sourceTree = "<group>"; };
-		49DF77A41C1B37140078E92B /* BUFBaseJSONObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BUFBaseJSONObject.m; sourceTree = "<group>"; };
-		49DF77A51C1B37140078E92B /* BUFStationJSONObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BUFStationJSONObject.h; sourceTree = "<group>"; };
-		49DF77A61C1B37140078E92B /* BUFStationJSONObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BUFStationJSONObject.m; sourceTree = "<group>"; };
-		49DF77A91C1B37140078E92B /* BUFAPIParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BUFAPIParser.h; sourceTree = "<group>"; };
-		49DF77AA1C1B37140078E92B /* BUFAPIParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BUFAPIParser.m; sourceTree = "<group>"; };
-		49DF77AC1C1B37140078E92B /* NSString+RegExValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+RegExValidation.h"; sourceTree = "<group>"; };
-		49DF77AD1C1B37140078E92B /* NSString+RegExValidation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+RegExValidation.m"; sourceTree = "<group>"; };
-		49DF795C1C1B3D010078E92B /* MMAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMAPIClient.h; sourceTree = "<group>"; };
-		49DF795D1C1B3D010078E92B /* MMAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMAPIClient.m; sourceTree = "<group>"; };
-		49DF795F1C1B3D4C0078E92B /* MMHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMHTTPRequestOperation.h; sourceTree = "<group>"; };
-		49DF79601C1B3D4C0078E92B /* MMHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMHTTPRequestOperation.m; sourceTree = "<group>"; };
-		49DF79611C1B3D4C0078E92B /* MMJSONRequestSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMJSONRequestSerializer.h; sourceTree = "<group>"; };
-		49DF79621C1B3D4C0078E92B /* MMJSONRequestSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMJSONRequestSerializer.m; sourceTree = "<group>"; };
-		49DF79631C1B3D4C0078E92B /* MMServerErrorResponseSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMServerErrorResponseSerializer.h; sourceTree = "<group>"; };
-		49DF79641C1B3D4C0078E92B /* MMServerErrorResponseSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMServerErrorResponseSerializer.m; sourceTree = "<group>"; };
-		49DF79651C1B3D4C0078E92B /* MMURLAuthenticatedResponseSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMURLAuthenticatedResponseSerializer.h; sourceTree = "<group>"; };
-		49DF79661C1B3D4C0078E92B /* MMURLAuthenticatedResponseSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMURLAuthenticatedResponseSerializer.m; sourceTree = "<group>"; };
-		7B4DE6F9CBFCA35E42168E93 /* Pods-openBahn-SDK-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-openBahn-SDK-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-openBahn-SDK-iOS/Pods-openBahn-SDK-iOS.release.xcconfig"; sourceTree = "<group>"; };
-		B8D18BD490E79626A7E55364 /* Pods-openBahn-SDK-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-openBahn-SDK-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-openBahn-SDK-iOS/Pods-openBahn-SDK-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		1DC84468AFEED192293E12FD /* Pods-openBahn-SDK-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-openBahn-SDK-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-openBahn-SDK-iOS/Pods-openBahn-SDK-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		454FE741E382B08B50B84267 /* Pods-openBahn-SDK-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-openBahn-SDK-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-openBahn-SDK-iOS/Pods-openBahn-SDK-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		496BB2411C1B5A1200709F2A /* libopenBahn-SDK-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libopenBahn-SDK-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		496BB2441C1B5A1200709F2A /* openBahn_SDK_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = openBahn_SDK_iOS.h; sourceTree = "<group>"; };
+		496BB2461C1B5A1200709F2A /* openBahn_SDK_iOS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = openBahn_SDK_iOS.m; sourceTree = "<group>"; };
+		496BB24C1C1B5A1200709F2A /* openBahn-SDK-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "openBahn-SDK-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		496BB2521C1B5A1200709F2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F56E219F354362DCAACC602 /* libPods-openBahn-SDK-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-openBahn-SDK-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		49DF77661C1B2BAA0078E92B /* Frameworks */ = {
+		496BB23E1C1B5A1200709F2A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3BF64C1282CB3FC6B913DD1 /* libPods-openBahn-SDK-iOS.a in Frameworks */,
+				FB726F754F31C196599D2282 /* libPods-openBahn-SDK-iOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		49DF77711C1B2BAB0078E92B /* Frameworks */ = {
+		496BB2491C1B5A1200709F2A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49DF77751C1B2BAB0078E92B /* libopenBahn-SDK-iOS.a in Frameworks */,
+				496BB24D1C1B5A1200709F2A /* libopenBahn-SDK-iOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		49DF77601C1B2BAA0078E92B = {
+		496BB2381C1B5A1200709F2A = {
 			isa = PBXGroup;
 			children = (
-				49DF776B1C1B2BAB0078E92B /* openBahn-SDK-iOS */,
-				49DF77781C1B2BAB0078E92B /* openBahn-SDK-iOSTests */,
-				49DF776A1C1B2BAB0078E92B /* Products */,
-				96BB44E3F6440DAFFE33F61C /* Pods */,
-				C651DC8155C470FF7F262F38 /* Frameworks */,
+				496BB2431C1B5A1200709F2A /* openBahn-SDK-iOS */,
+				496BB2501C1B5A1200709F2A /* openBahn-SDK-iOSTests */,
+				496BB2421C1B5A1200709F2A /* Products */,
+				85A488178F492D25C66219C3 /* Pods */,
+				615C5A309471830C263EBA25 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		49DF776A1C1B2BAB0078E92B /* Products */ = {
+		496BB2421C1B5A1200709F2A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				49DF77691C1B2BAB0078E92B /* libopenBahn-SDK-iOS.a */,
-				49DF77741C1B2BAB0078E92B /* openBahn-SDK-iOSTests.xctest */,
+				496BB2411C1B5A1200709F2A /* libopenBahn-SDK-iOS.a */,
+				496BB24C1C1B5A1200709F2A /* openBahn-SDK-iOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		49DF776B1C1B2BAB0078E92B /* openBahn-SDK-iOS */ = {
+		496BB2431C1B5A1200709F2A /* openBahn-SDK-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				49DF795B1C1B3CDB0078E92B /* APIClient */,
-				49DF78791C1B39960078E92B /* 3rdParty */,
-				49DF779D1C1B37140078E92B /* MetaJson */,
-				49DF776C1C1B2BAB0078E92B /* openBahn_SDK_iOS.h */,
-				49DF776E1C1B2BAB0078E92B /* openBahn_SDK_iOS.m */,
+				496BB2441C1B5A1200709F2A /* openBahn_SDK_iOS.h */,
+				496BB2461C1B5A1200709F2A /* openBahn_SDK_iOS.m */,
 			);
 			path = "openBahn-SDK-iOS";
 			sourceTree = "<group>";
 		};
-		49DF77781C1B2BAB0078E92B /* openBahn-SDK-iOSTests */ = {
+		496BB2501C1B5A1200709F2A /* openBahn-SDK-iOSTests */ = {
 			isa = PBXGroup;
 			children = (
-				49DF77791C1B2BAB0078E92B /* Supporting Files */,
+				496BB2511C1B5A1200709F2A /* Supporting Files */,
 			);
 			path = "openBahn-SDK-iOSTests";
 			sourceTree = "<group>";
 		};
-		49DF77791C1B2BAB0078E92B /* Supporting Files */ = {
+		496BB2511C1B5A1200709F2A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				49DF777A1C1B2BAB0078E92B /* Info.plist */,
+				496BB2521C1B5A1200709F2A /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		49DF779D1C1B37140078E92B /* MetaJson */ = {
+		615C5A309471830C263EBA25 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				49DF779E1C1B37140078E92B /* AbstractInterfaceFiles */,
-				49DF77A31C1B37140078E92B /* BUFBaseJSONObject.h */,
-				49DF77A41C1B37140078E92B /* BUFBaseJSONObject.m */,
-				49DF77A51C1B37140078E92B /* BUFStationJSONObject.h */,
-				49DF77A61C1B37140078E92B /* BUFStationJSONObject.m */,
-				49DF77A71C1B37140078E92B /* Utilities */,
-			);
-			path = MetaJson;
-			sourceTree = "<group>";
-		};
-		49DF779E1C1B37140078E92B /* AbstractInterfaceFiles */ = {
-			isa = PBXGroup;
-			children = (
-				49DF779F1C1B37140078E92B /* _BUFBaseJSONObject.h */,
-				49DF77A01C1B37140078E92B /* _BUFBaseJSONObject.m */,
-				49DF77A11C1B37140078E92B /* _BUFStationJSONObject.h */,
-				49DF77A21C1B37140078E92B /* _BUFStationJSONObject.m */,
-			);
-			path = AbstractInterfaceFiles;
-			sourceTree = "<group>";
-		};
-		49DF77A71C1B37140078E92B /* Utilities */ = {
-			isa = PBXGroup;
-			children = (
-				49DF77A81C1B37140078E92B /* APIParser */,
-				49DF77AB1C1B37140078E92B /* NSString */,
-			);
-			path = Utilities;
-			sourceTree = "<group>";
-		};
-		49DF77A81C1B37140078E92B /* APIParser */ = {
-			isa = PBXGroup;
-			children = (
-				49DF77A91C1B37140078E92B /* BUFAPIParser.h */,
-				49DF77AA1C1B37140078E92B /* BUFAPIParser.m */,
-			);
-			path = APIParser;
-			sourceTree = "<group>";
-		};
-		49DF77AB1C1B37140078E92B /* NSString */ = {
-			isa = PBXGroup;
-			children = (
-				49DF77AC1C1B37140078E92B /* NSString+RegExValidation.h */,
-				49DF77AD1C1B37140078E92B /* NSString+RegExValidation.m */,
-			);
-			path = NSString;
-			sourceTree = "<group>";
-		};
-		49DF78791C1B39960078E92B /* 3rdParty */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = 3rdParty;
-			sourceTree = "<group>";
-		};
-		49DF795B1C1B3CDB0078E92B /* APIClient */ = {
-			isa = PBXGroup;
-			children = (
-				49DF795C1C1B3D010078E92B /* MMAPIClient.h */,
-				49DF795D1C1B3D010078E92B /* MMAPIClient.m */,
-				49DC26951C1B42600082510C /* MMErrorHandler.h */,
-				49DC268E1C1B41F70082510C /* MMServerError.h */,
-				49DC268F1C1B41F70082510C /* MMServerError.m */,
-				49DC268B1C1B41990082510C /* MMServerAuthError.h */,
-				49DC268C1C1B41990082510C /* MMServerAuthError.m */,
-				49DF795F1C1B3D4C0078E92B /* MMHTTPRequestOperation.h */,
-				49DF79601C1B3D4C0078E92B /* MMHTTPRequestOperation.m */,
-				49DF79611C1B3D4C0078E92B /* MMJSONRequestSerializer.h */,
-				49DF79621C1B3D4C0078E92B /* MMJSONRequestSerializer.m */,
-				49DF79631C1B3D4C0078E92B /* MMServerErrorResponseSerializer.h */,
-				49DF79641C1B3D4C0078E92B /* MMServerErrorResponseSerializer.m */,
-				49DF79651C1B3D4C0078E92B /* MMURLAuthenticatedResponseSerializer.h */,
-				49DF79661C1B3D4C0078E92B /* MMURLAuthenticatedResponseSerializer.m */,
-				49DC26851C1B415E0082510C /* MMAPIClientSessionDelegate.h */,
-				49DC26861C1B415E0082510C /* MMHTTPRequestOperationDelegate.h */,
-			);
-			name = APIClient;
-			sourceTree = "<group>";
-		};
-		96BB44E3F6440DAFFE33F61C /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B8D18BD490E79626A7E55364 /* Pods-openBahn-SDK-iOS.debug.xcconfig */,
-				7B4DE6F9CBFCA35E42168E93 /* Pods-openBahn-SDK-iOS.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		C651DC8155C470FF7F262F38 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				3A863DB263AB0AAC35B821AB /* libPods-openBahn-SDK-iOS.a */,
+				9F56E219F354362DCAACC602 /* libPods-openBahn-SDK-iOS.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		85A488178F492D25C66219C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				454FE741E382B08B50B84267 /* Pods-openBahn-SDK-iOS.debug.xcconfig */,
+				1DC84468AFEED192293E12FD /* Pods-openBahn-SDK-iOS.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		49DF77681C1B2BAA0078E92B /* openBahn-SDK-iOS */ = {
+		496BB2401C1B5A1200709F2A /* openBahn-SDK-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 49DF777D1C1B2BAB0078E92B /* Build configuration list for PBXNativeTarget "openBahn-SDK-iOS" */;
+			buildConfigurationList = 496BB2551C1B5A1200709F2A /* Build configuration list for PBXNativeTarget "openBahn-SDK-iOS" */;
 			buildPhases = (
-				BB3F3D7EE57DB92EA2D50166 /* Check Pods Manifest.lock */,
-				49DF77651C1B2BAA0078E92B /* Sources */,
-				49DF77661C1B2BAA0078E92B /* Frameworks */,
-				49DF77671C1B2BAA0078E92B /* CopyFiles */,
-				49DF77831C1B31980078E92B /* Build Fat Lib */,
-				917028FF3C89143C52633A5C /* Copy Pods Resources */,
+				B17D66FBC3F519F5909B9672 /* Check Pods Manifest.lock */,
+				496BB23D1C1B5A1200709F2A /* Sources */,
+				496BB23E1C1B5A1200709F2A /* Frameworks */,
+				496BB23F1C1B5A1200709F2A /* CopyFiles */,
+				493A00971C1B5B7400F87FBD /* Fat Lib Build */,
+				9E5FE0E0DF8E6576F7FE6F2D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -276,64 +149,64 @@
 			);
 			name = "openBahn-SDK-iOS";
 			productName = "openBahn-SDK-iOS";
-			productReference = 49DF77691C1B2BAB0078E92B /* libopenBahn-SDK-iOS.a */;
+			productReference = 496BB2411C1B5A1200709F2A /* libopenBahn-SDK-iOS.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		49DF77731C1B2BAB0078E92B /* openBahn-SDK-iOSTests */ = {
+		496BB24B1C1B5A1200709F2A /* openBahn-SDK-iOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 49DF77801C1B2BAB0078E92B /* Build configuration list for PBXNativeTarget "openBahn-SDK-iOSTests" */;
+			buildConfigurationList = 496BB2581C1B5A1200709F2A /* Build configuration list for PBXNativeTarget "openBahn-SDK-iOSTests" */;
 			buildPhases = (
-				49DF77701C1B2BAB0078E92B /* Sources */,
-				49DF77711C1B2BAB0078E92B /* Frameworks */,
-				49DF77721C1B2BAB0078E92B /* Resources */,
+				496BB2481C1B5A1200709F2A /* Sources */,
+				496BB2491C1B5A1200709F2A /* Frameworks */,
+				496BB24A1C1B5A1200709F2A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				49DF77771C1B2BAB0078E92B /* PBXTargetDependency */,
+				496BB24F1C1B5A1200709F2A /* PBXTargetDependency */,
 			);
 			name = "openBahn-SDK-iOSTests";
 			productName = "openBahn-SDK-iOSTests";
-			productReference = 49DF77741C1B2BAB0078E92B /* openBahn-SDK-iOSTests.xctest */;
+			productReference = 496BB24C1C1B5A1200709F2A /* openBahn-SDK-iOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		49DF77611C1B2BAA0078E92B /* Project object */ = {
+		496BB2391C1B5A1200709F2A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = "Andreas Buff";
 				TargetAttributes = {
-					49DF77681C1B2BAA0078E92B = {
+					496BB2401C1B5A1200709F2A = {
 						CreatedOnToolsVersion = 6.2;
 					};
-					49DF77731C1B2BAB0078E92B = {
+					496BB24B1C1B5A1200709F2A = {
 						CreatedOnToolsVersion = 6.2;
 					};
 				};
 			};
-			buildConfigurationList = 49DF77641C1B2BAA0078E92B /* Build configuration list for PBXProject "openBahn-SDK-iOS" */;
+			buildConfigurationList = 496BB23C1C1B5A1200709F2A /* Build configuration list for PBXProject "openBahn-SDK-iOS" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 49DF77601C1B2BAA0078E92B;
-			productRefGroup = 49DF776A1C1B2BAB0078E92B /* Products */;
+			mainGroup = 496BB2381C1B5A1200709F2A;
+			productRefGroup = 496BB2421C1B5A1200709F2A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				49DF77681C1B2BAA0078E92B /* openBahn-SDK-iOS */,
-				49DF77731C1B2BAB0078E92B /* openBahn-SDK-iOSTests */,
+				496BB2401C1B5A1200709F2A /* openBahn-SDK-iOS */,
+				496BB24B1C1B5A1200709F2A /* openBahn-SDK-iOSTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		49DF77721C1B2BAB0078E92B /* Resources */ = {
+		496BB24A1C1B5A1200709F2A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -343,21 +216,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		49DF77831C1B31980078E92B /* Build Fat Lib */ = {
+		493A00971C1B5B7400F87FBD /* Fat Lib Build */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Build Fat Lib";
+			name = "Fat Lib Build";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "set -e\nset +u\n# Avoid recursively calling this script.\nif [[ $SF_MASTER_SCRIPT_RUNNING ]]\nthen\nexit 0\nfi\nset -u\nexport SF_MASTER_SCRIPT_RUNNING=1\n\nSF_TARGET_NAME=${PROJECT_NAME}\nSF_EXECUTABLE_PATH=\"lib${SF_TARGET_NAME}.a\"\nSF_WRAPPER_NAME=\"${SF_TARGET_NAME}.framework\"\n\n# The following conditionals come from\n# https://github.com/kstenerud/iOS-Universal-Framework\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\nSF_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\necho \"Could not find platform name from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\nSF_SDK_VERSION=${BASH_REMATCH[1]}\nelse\necho \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\nif [[ \"$SF_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\nSF_OTHER_PLATFORM=iphonesimulator\nelse\nSF_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$SF_SDK_PLATFORM$ ]]\nthen\nSF_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${SF_OTHER_PLATFORM}\"\nelse\necho \"Could not find platform name from build products directory: $BUILT_PRODUCTS_DIR\"\nexit 1\nfi\n\n# Build the other platform.\nxcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${SF_OTHER_PLATFORM}${SF_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" OBJROOT=\"${OBJROOT}\" BUILD_ROOT=\"${BUILD_ROOT}\" SYMROOT=\"${SYMROOT}\" $ACTION\n\n#// vars for framework structure\nSIMULATOR_LIBRARY_PATH=\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/lib${PROJECT_NAME}.a\" &&\nDEVICE_LIBRARY_PATH=\"${BUILD_DIR}/${CONFIGURATION}-iphoneos/lib${PROJECT_NAME}.a\" &&\nUNIVERSAL_LIBRARY_DIR=\"${BUILD_DIR}/${CONFIGURATION}-iphoneuniversal\" &&\nUNIVERSAL_LIBRARY_PATH=\"${UNIVERSAL_LIBRARY_DIR}/${PRODUCT_NAME}\" &&\nFRAMEWORK=\"${UNIVERSAL_LIBRARY_DIR}/${PRODUCT_NAME}.framework\" &&\nFRAMEWORK_HEADER_PATH=\"${FRAMEWORK}/Versions/A/Headers/\" &&\nSIMULATOR_LIBRARY_HEADERS=\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/include/${PRODUCT_NAME}/\" &&\nFAT_LIB_DIR=\"${PROJECT_DIR}/fatLib\" &&\n\n# Create framework directory structure.\nrm -rf \"${FRAMEWORK}\" &&\nmkdir -p \"${UNIVERSAL_LIBRARY_DIR}\" &&\nmkdir -p \"${FRAMEWORK}/Versions/A/Headers\" &&\nmkdir -p \"${FRAMEWORK}/Versions/A/Resources\" &&\n\n# Generate universal binary for the device and simulator.\nlipo \"${SIMULATOR_LIBRARY_PATH}\" \"${DEVICE_LIBRARY_PATH}\" -create -output \"${UNIVERSAL_LIBRARY_PATH}\" &&\n\n# Move files to appropriate locations in framework paths.\ncp \"${UNIVERSAL_LIBRARY_PATH}\" \"${FRAMEWORK}/Versions/A\" &&\nln -s \"A\" \"${FRAMEWORK}/Versions/Current\" &&\nln -s \"Versions/Current/Headers\" \"${FRAMEWORK}/Headers\" &&\nln -s \"Versions/Current/Resources\" \"${FRAMEWORK}/Resources\" &&\nln -s \"Versions/Current/${PRODUCT_NAME}\" \"${FRAMEWORK}/${PRODUCT_NAME}\"\n\n#copy Headers\ncp -a \"${SIMULATOR_LIBRARY_HEADERS}.\" \"${FRAMEWORK_HEADER_PATH}\" &&\n\n#copy ready made fat lib to fatLib dir\nmkdir -p \"${FAT_LIB_DIR}/${PRODUCT_NAME}.framework\"\ncp -r \"${FRAMEWORK}/\" \"${FAT_LIB_DIR}/${PRODUCT_NAME}.framework\"\n#open \"${UNIVERSAL_LIBRARY_PATH}\"";
 		};
-		917028FF3C89143C52633A5C /* Copy Pods Resources */ = {
+		9E5FE0E0DF8E6576F7FE6F2D /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -372,7 +245,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-openBahn-SDK-iOS/Pods-openBahn-SDK-iOS-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BB3F3D7EE57DB92EA2D50166 /* Check Pods Manifest.lock */ = {
+		B17D66FBC3F519F5909B9672 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -390,28 +263,15 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		49DF77651C1B2BAA0078E92B /* Sources */ = {
+		496BB23D1C1B5A1200709F2A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49DF796A1C1B3D4C0078E92B /* MMURLAuthenticatedResponseSerializer.m in Sources */,
-				49DF77B31C1B37140078E92B /* NSString+RegExValidation.m in Sources */,
-				49DF776F1C1B2BAB0078E92B /* openBahn_SDK_iOS.m in Sources */,
-				49DF77B21C1B37140078E92B /* BUFAPIParser.m in Sources */,
-				49DF79691C1B3D4C0078E92B /* MMServerErrorResponseSerializer.m in Sources */,
-				49DF77AF1C1B37140078E92B /* _BUFStationJSONObject.m in Sources */,
-				49DF79671C1B3D4C0078E92B /* MMHTTPRequestOperation.m in Sources */,
-				49DC26901C1B41F70082510C /* MMServerError.m in Sources */,
-				49DF77AE1C1B37140078E92B /* _BUFBaseJSONObject.m in Sources */,
-				49DF79681C1B3D4C0078E92B /* MMJSONRequestSerializer.m in Sources */,
-				49DF77B11C1B37140078E92B /* BUFStationJSONObject.m in Sources */,
-				49DF795E1C1B3D010078E92B /* MMAPIClient.m in Sources */,
-				49DC268D1C1B41990082510C /* MMServerAuthError.m in Sources */,
-				49DF77B01C1B37140078E92B /* BUFBaseJSONObject.m in Sources */,
+				496BB2471C1B5A1200709F2A /* openBahn_SDK_iOS.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		49DF77701C1B2BAB0078E92B /* Sources */ = {
+		496BB2481C1B5A1200709F2A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -421,15 +281,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		49DF77771C1B2BAB0078E92B /* PBXTargetDependency */ = {
+		496BB24F1C1B5A1200709F2A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 49DF77681C1B2BAA0078E92B /* openBahn-SDK-iOS */;
-			targetProxy = 49DF77761C1B2BAB0078E92B /* PBXContainerItemProxy */;
+			target = 496BB2401C1B5A1200709F2A /* openBahn-SDK-iOS */;
+			targetProxy = 496BB24E1C1B5A1200709F2A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		49DF777B1C1B2BAB0078E92B /* Debug */ = {
+		496BB2531C1B5A1200709F2A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -465,11 +325,13 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "$(inherited)";
 				SDKROOT = iphoneos;
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64 i386";
 			};
 			name = Debug;
 		};
-		49DF777C1C1B2BAB0078E92B /* Release */ = {
+		496BB2541C1B5A1200709F2A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -498,34 +360,34 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "$(inherited)";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64 i386";
 			};
 			name = Release;
 		};
-		49DF777E1C1B2BAB0078E92B /* Debug */ = {
+		496BB2561C1B5A1200709F2A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B8D18BD490E79626A7E55364 /* Pods-openBahn-SDK-iOS.debug.xcconfig */;
+			baseConfigurationReference = 454FE741E382B08B50B84267 /* Pods-openBahn-SDK-iOS.debug.xcconfig */;
 			buildSettings = {
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				VALID_ARCHS = "i386 x86_64 arm64 armv7 armv7s";
 			};
 			name = Debug;
 		};
-		49DF777F1C1B2BAB0078E92B /* Release */ = {
+		496BB2571C1B5A1200709F2A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B4DE6F9CBFCA35E42168E93 /* Pods-openBahn-SDK-iOS.release.xcconfig */;
+			baseConfigurationReference = 1DC84468AFEED192293E12FD /* Pods-openBahn-SDK-iOS.release.xcconfig */;
 			buildSettings = {
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				VALID_ARCHS = "i386 x86_64 arm64 armv7 armv7s";
 			};
 			name = Release;
 		};
-		49DF77811C1B2BAB0078E92B /* Debug */ = {
+		496BB2591C1B5A1200709F2A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
@@ -542,7 +404,7 @@
 			};
 			name = Debug;
 		};
-		49DF77821C1B2BAB0078E92B /* Release */ = {
+		496BB25A1C1B5A1200709F2A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
@@ -558,34 +420,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		49DF77641C1B2BAA0078E92B /* Build configuration list for PBXProject "openBahn-SDK-iOS" */ = {
+		496BB23C1C1B5A1200709F2A /* Build configuration list for PBXProject "openBahn-SDK-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				49DF777B1C1B2BAB0078E92B /* Debug */,
-				49DF777C1C1B2BAB0078E92B /* Release */,
+				496BB2531C1B5A1200709F2A /* Debug */,
+				496BB2541C1B5A1200709F2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		49DF777D1C1B2BAB0078E92B /* Build configuration list for PBXNativeTarget "openBahn-SDK-iOS" */ = {
+		496BB2551C1B5A1200709F2A /* Build configuration list for PBXNativeTarget "openBahn-SDK-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				49DF777E1C1B2BAB0078E92B /* Debug */,
-				49DF777F1C1B2BAB0078E92B /* Release */,
+				496BB2561C1B5A1200709F2A /* Debug */,
+				496BB2571C1B5A1200709F2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		49DF77801C1B2BAB0078E92B /* Build configuration list for PBXNativeTarget "openBahn-SDK-iOSTests" */ = {
+		496BB2581C1B5A1200709F2A /* Build configuration list for PBXNativeTarget "openBahn-SDK-iOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				49DF77811C1B2BAB0078E92B /* Debug */,
-				49DF77821C1B2BAB0078E92B /* Release */,
+				496BB2591C1B5A1200709F2A /* Debug */,
+				496BB25A1C1B5A1200709F2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 49DF77611C1B2BAA0078E92B /* Project object */;
+	rootObject = 496BB2391C1B5A1200709F2A /* Project object */;
 }
