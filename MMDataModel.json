@@ -1,0 +1,74 @@
+[
+  {
+    "name": "base",
+    "description": "Base class for all JSON Objects",
+    "base-type": "object"
+  },
+  {
+    "name": "station",
+    "description": "data for one station",
+    "base-type": "base",
+    "property": [
+      {
+        "name": "_id",
+        "base-type": "string",
+        "required": 0
+      },
+      {
+        "name": "nahverkehr",
+        "base-type": "string",
+        "required": 0
+      },
+      {
+        "name": "fernverkehr",
+        "base-type": "number",
+        "required": 0
+      },
+      {
+        "name": "verkehrsVerb",
+        "base-type": "string",
+        "required": 0
+      },
+      {
+        "name": "aufgabentraeger",
+        "base-type": "string",
+        "required": 0
+      },
+      {
+        "name": "ort",
+        "base-type": "string",
+        "required": 0
+      },
+      {
+        "name": "plz",
+        "base-type": "number",
+        "required": 0
+      },
+      {
+        "name": "strasse",
+        "base-type": "string",
+        "required": 0
+      },
+      {
+        "name": "katVst",
+        "base-type": "string",
+        "required": 0
+      },
+      {
+        "name": "bm",
+        "base-type": "string",
+        "required": 0
+      },
+      {
+        "name": "bundesland",
+        "base-type": "string",
+        "required": 0
+      },
+      {
+        "name": "bfNr",
+        "base-type": "string",
+        "required": 0
+      }
+    ]
+  }
+]

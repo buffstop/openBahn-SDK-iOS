@@ -10,6 +10,12 @@
 		49DF776D1C1B2BAB0078E92B /* openBahn_SDK_iOS.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 49DF776C1C1B2BAB0078E92B /* openBahn_SDK_iOS.h */; };
 		49DF776F1C1B2BAB0078E92B /* openBahn_SDK_iOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DF776E1C1B2BAB0078E92B /* openBahn_SDK_iOS.m */; };
 		49DF77751C1B2BAB0078E92B /* libopenBahn-SDK-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49DF77691C1B2BAB0078E92B /* libopenBahn-SDK-iOS.a */; };
+		49DF77AE1C1B37140078E92B /* _BUFBaseJSONObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DF77A01C1B37140078E92B /* _BUFBaseJSONObject.m */; };
+		49DF77AF1C1B37140078E92B /* _BUFStationJSONObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DF77A21C1B37140078E92B /* _BUFStationJSONObject.m */; };
+		49DF77B01C1B37140078E92B /* BUFBaseJSONObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DF77A41C1B37140078E92B /* BUFBaseJSONObject.m */; };
+		49DF77B11C1B37140078E92B /* BUFStationJSONObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DF77A61C1B37140078E92B /* BUFStationJSONObject.m */; };
+		49DF77B21C1B37140078E92B /* BUFAPIParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DF77AA1C1B37140078E92B /* BUFAPIParser.m */; };
+		49DF77B31C1B37140078E92B /* NSString+RegExValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DF77AD1C1B37140078E92B /* NSString+RegExValidation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +47,18 @@
 		49DF776E1C1B2BAB0078E92B /* openBahn_SDK_iOS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = openBahn_SDK_iOS.m; sourceTree = "<group>"; };
 		49DF77741C1B2BAB0078E92B /* openBahn-SDK-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "openBahn-SDK-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49DF777A1C1B2BAB0078E92B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49DF779F1C1B37140078E92B /* _BUFBaseJSONObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _BUFBaseJSONObject.h; sourceTree = "<group>"; };
+		49DF77A01C1B37140078E92B /* _BUFBaseJSONObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _BUFBaseJSONObject.m; sourceTree = "<group>"; };
+		49DF77A11C1B37140078E92B /* _BUFStationJSONObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _BUFStationJSONObject.h; sourceTree = "<group>"; };
+		49DF77A21C1B37140078E92B /* _BUFStationJSONObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _BUFStationJSONObject.m; sourceTree = "<group>"; };
+		49DF77A31C1B37140078E92B /* BUFBaseJSONObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BUFBaseJSONObject.h; sourceTree = "<group>"; };
+		49DF77A41C1B37140078E92B /* BUFBaseJSONObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BUFBaseJSONObject.m; sourceTree = "<group>"; };
+		49DF77A51C1B37140078E92B /* BUFStationJSONObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BUFStationJSONObject.h; sourceTree = "<group>"; };
+		49DF77A61C1B37140078E92B /* BUFStationJSONObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BUFStationJSONObject.m; sourceTree = "<group>"; };
+		49DF77A91C1B37140078E92B /* BUFAPIParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BUFAPIParser.h; sourceTree = "<group>"; };
+		49DF77AA1C1B37140078E92B /* BUFAPIParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BUFAPIParser.m; sourceTree = "<group>"; };
+		49DF77AC1C1B37140078E92B /* NSString+RegExValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+RegExValidation.h"; sourceTree = "<group>"; };
+		49DF77AD1C1B37140078E92B /* NSString+RegExValidation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+RegExValidation.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +101,7 @@
 		49DF776B1C1B2BAB0078E92B /* openBahn-SDK-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				49DF779D1C1B37140078E92B /* MetaJson */,
 				49DF776C1C1B2BAB0078E92B /* openBahn_SDK_iOS.h */,
 				49DF776E1C1B2BAB0078E92B /* openBahn_SDK_iOS.m */,
 			);
@@ -103,6 +122,57 @@
 				49DF777A1C1B2BAB0078E92B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49DF779D1C1B37140078E92B /* MetaJson */ = {
+			isa = PBXGroup;
+			children = (
+				49DF779E1C1B37140078E92B /* AbstractInterfaceFiles */,
+				49DF77A31C1B37140078E92B /* BUFBaseJSONObject.h */,
+				49DF77A41C1B37140078E92B /* BUFBaseJSONObject.m */,
+				49DF77A51C1B37140078E92B /* BUFStationJSONObject.h */,
+				49DF77A61C1B37140078E92B /* BUFStationJSONObject.m */,
+				49DF77A71C1B37140078E92B /* Utilities */,
+			);
+			path = MetaJson;
+			sourceTree = "<group>";
+		};
+		49DF779E1C1B37140078E92B /* AbstractInterfaceFiles */ = {
+			isa = PBXGroup;
+			children = (
+				49DF779F1C1B37140078E92B /* _BUFBaseJSONObject.h */,
+				49DF77A01C1B37140078E92B /* _BUFBaseJSONObject.m */,
+				49DF77A11C1B37140078E92B /* _BUFStationJSONObject.h */,
+				49DF77A21C1B37140078E92B /* _BUFStationJSONObject.m */,
+			);
+			path = AbstractInterfaceFiles;
+			sourceTree = "<group>";
+		};
+		49DF77A71C1B37140078E92B /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				49DF77A81C1B37140078E92B /* APIParser */,
+				49DF77AB1C1B37140078E92B /* NSString */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		49DF77A81C1B37140078E92B /* APIParser */ = {
+			isa = PBXGroup;
+			children = (
+				49DF77A91C1B37140078E92B /* BUFAPIParser.h */,
+				49DF77AA1C1B37140078E92B /* BUFAPIParser.m */,
+			);
+			path = APIParser;
+			sourceTree = "<group>";
+		};
+		49DF77AB1C1B37140078E92B /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				49DF77AC1C1B37140078E92B /* NSString+RegExValidation.h */,
+				49DF77AD1C1B37140078E92B /* NSString+RegExValidation.m */,
+			);
+			path = NSString;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,7 +281,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49DF77B31C1B37140078E92B /* NSString+RegExValidation.m in Sources */,
 				49DF776F1C1B2BAB0078E92B /* openBahn_SDK_iOS.m in Sources */,
+				49DF77B21C1B37140078E92B /* BUFAPIParser.m in Sources */,
+				49DF77AF1C1B37140078E92B /* _BUFStationJSONObject.m in Sources */,
+				49DF77AE1C1B37140078E92B /* _BUFBaseJSONObject.m in Sources */,
+				49DF77B11C1B37140078E92B /* BUFStationJSONObject.m in Sources */,
+				49DF77B01C1B37140078E92B /* BUFBaseJSONObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
