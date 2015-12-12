@@ -18,7 +18,7 @@
 - (void)testExample {
     XCTestExpectation *expectation = [self expectationWithDescription:@"success!"];
     ODBSimpleAPI *http =[ODBSimpleAPI new];
-    [http getAllStationsWithFilter:nil success:^{
+    [http getAllStationsWithFilter:nil success:^(NSArray *stations){
         [expectation fulfill];
     } onError:^(NSError *error) {
         NSLog([error description]);
